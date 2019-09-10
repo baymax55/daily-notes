@@ -40,6 +40,14 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+        <!-- case oom -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+<!--            <version>1.2.58</version>-->
+            <version>1.2.60</version>
+        </dependency>
+
     </dependencies>
 
     <build>
