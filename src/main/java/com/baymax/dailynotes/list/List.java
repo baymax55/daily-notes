@@ -1,4 +1,4 @@
-package com.baymax.dailynotes.dailynotes.list;
+package com.baymax.dailynotes.list;
 
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;

@@ -1,4 +1,4 @@
-package com.baymax.dailynotes.dailynotes.thread;
+package com.baymax.dailynotes.thread;
 
 import java.util.concurrent.*;
 

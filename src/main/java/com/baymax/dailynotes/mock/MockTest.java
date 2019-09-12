@@ -1,7 +1,7 @@
-package com.baymax.dailynotes.dailynotes.mock;
+package com.baymax.dailynotes.mock;
 
-import com.baymax.dailynotes.dailynotes.mock.temp.LoginPresenter;
-import com.baymax.dailynotes.dailynotes.mock.temp.UserManager;
+import com.baymax.dailynotes.mock.temp.LoginPresenter;
+import com.baymax.dailynotes.mock.temp.UserManager;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 

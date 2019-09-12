@@ -1,4 +1,6 @@
-package com.baymax.dailynotes.dailynotes.accessPermission.package0.differentPackage.samePackage;
+package com.baymax.dailynotes.accessPermission.differentPackage;
+
+import com.baymax.dailynotes.accessPermission.differentPackage.samePackage.Private0;
 
 /**
  * @author bx
@@ -12,5 +14,6 @@ public class SubPrivate0 extends Private0 {
 
     public static void main(String[] args) {
 //        SubPrivate0.
+//        Private0.
     }
 }

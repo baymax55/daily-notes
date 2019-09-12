@@ -1,4 +1,4 @@
-package com.baymax.dailynotes.dailynotes.accessPermission.package0.differentPackage.samePackage;
+package com.baymax.dailynotes.accessPermission.differentPackage.samePackage;
 
 /**
  * https://blog.csdn.net/u012969412/article/details/76401148

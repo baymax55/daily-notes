@@ -1,4 +1,4 @@
-package com.baymax.dailynotes.dailynotes.test;
+package com.baymax.dailynotes.test;
 
 /**
  * @author bx

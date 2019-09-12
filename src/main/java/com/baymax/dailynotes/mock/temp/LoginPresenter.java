@@ -1,4 +1,4 @@
-package com.baymax.dailynotes.dailynotes.mock.temp;
+package com.baymax.dailynotes.mock.temp;
 
 /**
  * @author bx
