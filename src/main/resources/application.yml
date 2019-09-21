@@ -2,3 +2,45 @@ management:
   info:
     git:
       mode: full
+server:
+  port: 8081
+
+spring:
+  datasource:
+    url: jdbc:mysql://192.168.118.8:23306/baymax?characterEncoding=utf-8
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+    type: com.zaxxer.hikari.HikariDataSource
+    sql-script-encoding: utf-8
+    hikari:
+      max-lifetime: 1900000
+      maximum-pool-size: 20
+      minimum-idle: 5
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL55Dialect
+    show-sql: true
+
+
+  #devtools插件
+  devtools:
+    livereload:
+      enabled: true #是否支持livereload
+      port: 35729
+    restart:
+      enabled: true #是否支持热部署
+
+  redis:
+    host: 192.168.118.42
+    port: 6379
+    database: 8
+  servlet:
+    multipart:
+      max-file-size: 30MB
+      max-request-size: 30MB
+maxnum: 50
+
