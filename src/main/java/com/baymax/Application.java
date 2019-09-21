@@ -2,6 +2,7 @@ package com.baymax;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.context.ApplicationPidFileWriter;
 import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
 
@@ -9,7 +10,9 @@ import org.springframework.web.client.RestTemplate;
 public class Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
+        SpringApplication application = new SpringApplication(Application.class);
+        application.addListeners(new ApplicationPidFileWriter());
+        application.run(args);
     }
 
     @Bean

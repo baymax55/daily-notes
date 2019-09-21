@@ -44,3 +44,6 @@ spring:
       max-request-size: 30MB
 maxnum: 50
 
+winstar:
+  extrURL:
+
